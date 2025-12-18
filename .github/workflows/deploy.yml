@@ -21,6 +21,6 @@ jobs:
       - name: Deploy CloudFormation stack
         run: |
           aws cloudformation deploy \
-            --template-file cloudformation-template.yaml \
+            --template-file cftemplate.yaml \
             --stack-name coderoad-vpcv1-stack \
             --no-fail-on-empty-changeset
