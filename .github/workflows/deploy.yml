@@ -22,5 +22,5 @@ jobs:
         run: |
           aws cloudformation deploy \
             --template-file cftemplate.yaml \
-            --stack-name coderoad-vpcv1-stack \
+            --stack-name coderoad-rayvpc-stack \
             --no-fail-on-empty-changeset
