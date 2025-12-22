@@ -1,5 +1,5 @@
 AWSTemplateFormatVersion: "2010-09-09"
-Description: EC2 and networking
+Description: EC2 and networking Rayner
 
 Resources:
   VPC:
@@ -119,7 +119,7 @@ Resources:
       VPCZoneIdentifier:
         - !Ref SubnetA
         - !Ref SubnetB
-      MinSize: "1"
+      MinSize: "2"
       MaxSize: "4"
       DesiredCapacity: "1"
       LaunchTemplate:
